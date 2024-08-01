@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function() {
             emailjs.send('service_1lrphum', 'template_nwzdkd8', params)
             .then((response) => {
                 console.log('SUCCESS!', response.status, response.text);
-                alert('Message sent successfully');
+                alert('Message sent successfully!');
             })
             .catch((error) => {
                 console.log('FAILED...', error);
