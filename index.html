@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" 
+                           integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" 
+                           crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Ram Patidar</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
+
+  <script type="text/javascript">
+        (function() {
+            emailjs.init('patidar29ram@gmail.com'); // Replace with your EmailJS user ID
+        })();
+    </script>
+
+</head>
+<body>
+    <!-- MENU -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                   <img  src="C:\Users\DELL\Desktop\Portfolio\img\Ram-LogoPNG1.png" alt=""> 
+                   
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INFO</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="passport.jpg" alt="">
+            </div>
+            <h1>Ram &nbsp;Patidar</h1>
+            <h2>Software Engineer</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/soumy.tiwari.18/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://twitter.com/Soumya7247" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/_ram__patidar__/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/rampatidar03" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/patidar28ram/" target="_blank"><i class="fa-brands fa-github"></i> </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Info</h2>
+            <p>Hello !<br><span>I am Ram Patidar .</span></p>
+            <p>
+            I'm strong in intuitive problem-solving skills . Passionate about
+            implementing and launching new projects . Ability to translate
+            business requirements into technical solutions . Looking to start
+            the career as an entry-level software engineer with a reputed
+            company where I can utilize my superior understanding of the
+            domain gained during my Bachelors & continuing in Masters .
+            I have excellent Communication skills to convince potential clients and
+            customers . Passionate about learning new concepts and possess the ability 
+            to handle work pressure and customer
+            issues professionally . ☺️
+            </p>
+            <br>
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Personal Details</h3>
+                    <ul>
+                        
+                        <li>
+                            <strong>Phone -- </strong>
+                            +91 7898322380
+                        </li>
+                        <li>
+                            <strong>Email -- </strong>
+                            rraamm2803@gmail.com
+                        </li>
+                        <li>
+                            <strong>GitHub -- </strong>
+                            patidar28ram
+                        </li>
+                        
+                        <li>
+                            <strong>Address -- </strong>
+                            Indore , Madhya Pradesh , INDIA (452012)
+                        </li>
+                       
+                        <li>
+                            <strong>Career in -- </strong>
+                            <span> &nbsp; INFORMATION &nbsp; TECHNOLOGY &nbsp; </span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Hobbies</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>GAME</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSIC</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>TRAVEL</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brand 	fas fa-laptop"></i>
+                            <span>Laptop</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>HIKING</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid 	fas fa-code"></i>
+                            <span>CODE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>DRIVE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>PHOTO</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+           
+            <a href="ram resume2.pdf" target="_blank" style="text-decoration: none;"> <button >
+                Download CV &nbsp;<i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button></a>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Javascript
+                            </span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>
+                            React JS
+                        </span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Java</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Communication</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedication</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Teamwork Skills</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creativity</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Time Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>87%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Education</h3>
+                    <div class="item izq">
+                        <h4>Masters</h4>
+                        <span class="casa">RGPV University , Bhopal , MP  </span>
+                        <span class="fecha">2022 - 2024</span>
+                        <p>At present I'm persuing Masters in Computer Application ( MCA ) from IPS Academy , Indore , Madhya Pradesh , which is affiliated to RGPV University With 72%. </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Bachelors</h4>
+                        <span class="casa">Devi Ahilya Vishwa Vidyalaya,Indore</span>
+                        <span class="fecha">2019-2022</span>
+                        <p>I had done Bachelors of Science ( B.Sc. ) in Computer Science with 68% .</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="item izq">
+                        <h4>Diploma</h4>
+                        <span class="casa">MCU University , Bhopal , MP </span>
+                        <span class="fecha">2018-2019</span>
+                        <p>I had done Diploma in Computer Application <br>( DCA ) with 68% .</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div> -->
+
+                    <div class="item izq">
+                        <h4>12<sup>th</sup></h4>
+                        <span class="casa">MP BOARD , Bhopal , MP</span>
+                        <span class="fecha">2019</span>
+                        <p>I had done 12<sup>th</sup>  from MATHEMATICS with 62% .</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                  <div class="col derecha">
+                    <h3>&nbsp; Experience & Certificates</h3>
+
+                    <div class="item der">
+                        <h4>INTERNSHIP</h4>
+                        <span class="casa">Byte Billion , INDORE , MP</span>
+                        <span class="fecha">April 2023 - Onwards</span>
+                        <p>I'm doing internship in a startup company .<br>( Byte Billion ) </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                    <div class="item der">
+                        <h4>Java</h4>
+                        <span class="casa">TechnoHacks EduTech</span>
+                        <span class="fecha">August - September 2023</span>
+                        <p>I had done certified cource of Java Development .</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                    <div class="item der">
+                        <h4>Web Designing Expert</h4>
+                        <span class="casa">Kro Code , INDORE</span>
+                        <span class="fecha">August - October 2023</span>
+                        <p>I had done certified cource of Web Designing Expert . <br> ( HTML , CSS , Javascript , Bootstrap , jQery ) </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+
+                    <!-- <div class="item der">
+                        <h4>C & C++</h4>
+                        <span class="casa">Universal Informatics , INDORE</span>
+                        <span class="fecha">July - August 2022</span>
+                        <p>I had done certified cource of C & C++ programming language .</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                   -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>Portfolio</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/react.jpg" alt="">
+                    <div class="overlay">
+                        <h3>React JS</h3>
+                        <p>{ Expert in making UI COMPONENTS. }</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="./img/cl.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Cloud Computing</h3>
+                        <p> My goal is to be expert in Cloud Computing ;</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="img/lead2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Teamwork</h3>
+                        <p>(Capability to lead the team.)</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/cricket.jpg" alt="">
+                    <div class="overlay">
+                        <h3>CRICKET</h3>
+                        <p>I love to play cricket .</p>
+                    </div>
+                </div>
+             
+                <div class="proyecto">
+                    <img src="img/mm.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Music</h3>
+                        <p>"Music is life"</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/travel.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Travel</h3>
+                        <p><< Live To Travel >> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>Contact &nbsp;Me</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" id="name" placeholder="Enter your name">
+                    <input type="email" id="email" placeholder="Enter your e-mail">
+                    <input type="text" id="phone" placeholder="Enter your phone number">
+                    <input type="text" id="subject" placeholder="Enter your subject / purpose">
+                    <textarea name="" id="message" cols="4" rows="6"  placeholder="Text your message..."></textarea>
+                    <button type="submit" id="submitBtn">
+                        <i class="fa-solid fa-paper-plane"></i>
+                        SEND<span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="passport.jpg" alt="">
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="hr">
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/soumy.tiwari.18/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://twitter.com/Soumya7247" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/_ram__patidar__/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/soumyatiwari7247" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/patidar28ram/" target="_blank"><i class="fa-brands fa-github"></i> </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
